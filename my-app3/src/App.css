@@ -4,10 +4,10 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: white;
+  color: black;
   
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: white;
 }
 
 code {
@@ -18,28 +18,33 @@ code {
 
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  color: #61dafb;
   text-align: center;
-  font-weight: 100;
+  font-weight: bolder;
   font-size:xx-large;
+  margin-bottom: 2.5%;  
 
 }
 
 .content{
-margin-top: 50px;
+  margin-top: 2.5%;
+
 }
 
 .table_names{
-  margin-top: 0.5%;
-color:teal;
-font-weight: 600;
-font-size: larger;
 
-}
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0.5%;
+    margin-left: 40px;
+  }
 
 .table_description{
-  color:red;
-  font-weight: 300;
-  font-size: medium;
-  
-  }
+
+  color: black;
+  font-weight:light;
+  font-size: large;
+  margin-top: 0.5%;
+  margin-left: 80px;
+  padding: 0 0 0.5em 0;
+}
